@@ -1,0 +1,15 @@
+2. Configure AWS CLI (for Terraform Authentication)
+Ensure you have AWS CLI installed:
+
+# aws configure
+It will ask for:
+
+AWS Access Key ID
+AWS Secret Access Key
+Default region (e.g., us-east-1)
+Output format (json, text, table)
+
+terraform init      # Initialize Terraform
+terraform validate  # Validate configuration
+terraform plan      # Preview changes
+terraform apply -auto-approve  # Apply changes
