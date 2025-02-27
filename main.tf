@@ -60,7 +60,7 @@ resource "aws_instance" "my_instance" {
   instance_type = "t2.micro"
   subnet_id     = aws_subnet.subnet_1.id
   vpc_security_group_ids = [aws_security_group.ec2_sg.id]
-  associate_public_ip_address = true  # ✅ Assigns a public IP 
+  associate_public_ip_address = true  #  Assigns a public IP 
 
   tags = {
     Name = "Terraform-Instance"
